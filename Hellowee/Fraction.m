@@ -32,4 +32,8 @@
     [self setDenominator:self.denominator * 2];
 }
 
+-(NSString *)description {
+    return [NSString stringWithFormat:@"%i/%i", _numerator, _denominator];
+}
+
 @end

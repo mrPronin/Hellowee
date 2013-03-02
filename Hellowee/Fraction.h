@@ -13,6 +13,4 @@
 
 @property int numerator, denominator;
 
--(void) print;
-
 @end

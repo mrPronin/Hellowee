@@ -30,11 +30,14 @@ int main(int argc, const char * argv[])
         
         [myFraction add:myFraction2];
         
-        [myFraction print];
+        NSLog(@"%@", myFraction);
+        //[myFraction print];
         
         [myFraction doubleNumber];
         
-        [myFraction print];
+        //[myFraction print];
+        
+        NSLog(@"%@", myFraction);
         
     }
     return 0;
