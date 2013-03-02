@@ -10,6 +10,7 @@
 		A2A344A21696725E00D5D191 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A344A11696725E00D5D191 /* Foundation.framework */; };
 		A2A344A51696725F00D5D191 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A344A41696725F00D5D191 /* main.m */; };
 		A2A344A91696725F00D5D191 /* Hellowee.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A2A344A81696725F00D5D191 /* Hellowee.1 */; };
+		A2A344B1169672BA00D5D191 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A344B0169672BA00D5D191 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A2A344A41696725F00D5D191 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2A344A71696725F00D5D191 /* Hellowee-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hellowee-Prefix.pch"; sourceTree = "<group>"; };
 		A2A344A81696725F00D5D191 /* Hellowee.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hellowee.1; sourceTree = "<group>"; };
+		A2A344AF169672BA00D5D191 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		A2A344B0169672BA00D5D191 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				A2A344A41696725F00D5D191 /* main.m */,
+				A2A344AF169672BA00D5D191 /* Fraction.h */,
+				A2A344B0169672BA00D5D191 /* Fraction.m */,
 				A2A344A81696725F00D5D191 /* Hellowee.1 */,
 				A2A344A61696725F00D5D191 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2A344A51696725F00D5D191 /* main.m in Sources */,
+				A2A344B1169672BA00D5D191 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +242,7 @@
 				A2A344AE1696725F00D5D191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
