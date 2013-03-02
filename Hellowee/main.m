@@ -32,6 +32,10 @@ int main(int argc, const char * argv[])
         
         [myFraction print];
         
+        [myFraction doubleNumber];
+        
+        [myFraction print];
+        
     }
     return 0;
 }

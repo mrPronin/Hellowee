@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "numbersProtocol.h"
 
-@interface Fraction : NSObject
+@interface Fraction : NSObject <numbersProtocol>
 
 @property int numerator, denominator;
 

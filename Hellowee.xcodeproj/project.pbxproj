@@ -34,6 +34,7 @@
 		A2A344A81696725F00D5D191 /* Hellowee.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Hellowee.1; sourceTree = "<group>"; };
 		A2A344AF169672BA00D5D191 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		A2A344B0169672BA00D5D191 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		A2E2881916E20BF300892DBA /* numbersProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numbersProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 				A2A344A41696725F00D5D191 /* main.m */,
 				A2A344AF169672BA00D5D191 /* Fraction.h */,
 				A2A344B0169672BA00D5D191 /* Fraction.m */,
+				A2E2881916E20BF300892DBA /* numbersProtocol.h */,
 				A2A344A81696725F00D5D191 /* Hellowee.1 */,
 				A2A344A61696725F00D5D191 /* Supporting Files */,
 			);

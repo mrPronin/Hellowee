@@ -27,4 +27,9 @@
     [self setDenominator: self.denominator*f.denominator];
 }
 
+-(void) doubleNumber {
+    [self setNumerator:self.numerator * 2];
+    [self setDenominator:self.denominator * 2];
+}
+
 @end
